@@ -1,28 +1,52 @@
-# 🤖 30 Days of Streamlit: AI Edition
+🤖 30 Days of Gradio: AI Edition
+Welcome! This repository tracks a 30-day journey into building interactive, AI-powered web interfaces using Gradio.
 
-Welcome! This repository tracks a 30-day journey into building AI-powered applications with Streamlit. 
+Gradio is the fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere.
 
----
+🚩 STATUS: Starting May 2026
+We are focusing on building functional, beautiful, and accessible AI tools. The goal is to move from basic inputs/outputs to complex multi-modal applications.
 
-## 🚩 STATUS: Resetting for April 1, 2026
-We have officially "dialed back" the project to Day 1. To ensure a genuine learning experience, we are focusing on manual setup and fundamental concepts before moving into complex AI builds.
+📅 The Roadmap
+Current Phase: Environment Setup & Gradio Fundamentals.
 
-### 📅 The New Roadmap
-- **Official Start Date:** April 1, 2026
-- **Current Phase:** Environment Setup & "Hello World"
-- **The Philosophy:** Use AI as a **Mentor**, not a **Ghostwriter**.
+The Philosophy: Build fast, iterate often, and make AI accessible through clean UI.
 
----
+📂 Project Structure
+Each folder contains the source code, requirements, and a brief explanation of the day's build.
 
-## 🚀 How to Participate
-If you are joining the challenge, please follow these steps:
+day-01: Environment Setup & Your first "Hello World" Interface.
 
-1. **Read the Rules:** Check out our [AI Mentor Guidelines](https://github.com/Cybersoulja/30-Days-of-Streamlit-AI/issues/18) to understand how we use AI tools.
-2. **Complete Day 1:** Follow the technical instructions in [Issue #18](https://github.com/Cybersoulja/30-Days-of-Streamlit-AI/issues/18) to get your environment ready.
-3. **Introduce Yourself:** Head over to the [Discussions](https://github.com/Cybersoulja/30-Days-of-Streamlit-AI/discussions) tab and say hello!
+day-02 to day-10: Input components, styling with Themes, and State management.
 
----
+day-11 to day-20: Integrating LLMs (OpenAI, Hugging Face) and API handling.
 
-## 📂 Structure
-- `/day-01`: Setup & Hello World (Active)
-- `/day-02` - `/day-30`: Coming Soon
+day-21 to day-30: Advanced Apps (Image generation, Audio-to-Text, and Custom CSS).
+
+🚀 How to Run Locally
+Clone the repo:
+
+Bash
+git clone https://github.com/Oneseco-Media/30-Days-of-GRADIO.git
+cd 30-Days-of-GRADIO
+Create a virtual environment:
+
+Bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+Install Gradio:
+
+Bash
+pip install gradio
+Run a specific day:
+
+Bash
+python day-01/app.py
+🛠️ Resources
+Gradio Official Documentation
+
+Gradio Guides
+
+Hugging Face Spaces (Where we will deploy our apps!)
+
+📝 Notes & Progress Log
+Day 01: Transitioned from Streamlit to Gradio. Setup the new repository structure and initialized the workspace.- `/day-02` - `/day-30`: Coming Soon
